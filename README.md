@@ -4,21 +4,21 @@ SOFTWARE CONSTRUTION LAB 2:
 ---------------------------
 ---------------------------
 Introduction:
- Following things are performed in this lab:
-  •	Library created which has three functions
-    o	Iterative multiplication of matrices
-    o	Strassen’s multiplication of matrices
-    o	Check if the subtraction of both matrices is zero
-  •	Unit test for this library
+  A matrix multiplication library is written which perform multiplication using iterative and Strassen's algorithm. 
+  Following things are performed in this lab:
+    1. Library created which has three functions
+       a. Iterative multiplication of matrices
+       b. Strassen’s multiplication of matrices
+       c. check if the both results are equal
+    2. Unit test for this library 
 Approach:
-  •	Function for iterative multiplication
-      o	Iterate through both matrices and calculate the sum by multiplying (mxp if (mxn) is order of first matrix and (pxq) is order of second). 
-  •	Function for strassens
-      o	Use divide and conquer to divide matrix and then unite it again and find the product
-  •	Equal method to check that the answer of both the methods
-    o	Take the result of both methods 
-    o	Subtract both
-    o	If the answer is zero then the test is running correctly
+    1. Function for iterative multiplication
+       a. Iterate through both matrices and calculate the sum by multiplying (mxp if (mxn) is order of first matrix and (pxq) is order of second).
+    2. Function for strassen's algorithm 
+       a. Use divide and conquer to divide matrix and then unite it again and find the product
+    3. Equal method to check that the answer of both the methods
+       a. Take the result of both methods 
+       b. Check the equality of both anwsers using Arrays.equal
 
 -----------------
 Language:
